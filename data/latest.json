@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-04",
-  "last_updated_utc": "2026-09-08T01:15:40.385499+00:00",
+  "date": "2026-09-08",
+  "last_updated_utc": "2026-09-09T01:19:14.177015+00:00",
   "market_read": "Market signals are mixed, showing cross-currents between hardware bottlenecks and platform ROI confidence. Funding confirmation is partial: fringe borrowers are weaker, but broad hyperscaler credit has not fully deteriorated.",
   "data_health": {
-    "status": "Stale",
+    "status": "OK",
     "source": "yfinance",
     "retrieved_tickers": 34,
     "expected_tickers": 34,
@@ -11,15 +11,15 @@
     "failed_tickers": [],
     "core_tickers_ok": true,
     "core_missing_tickers": [],
-    "latest_trading_date": "2026-09-04",
-    "last_updated_utc": "2026-09-08T01:15:40.385499+00:00",
-    "is_stale": true,
-    "message": "Data retrieval Stale. 34 of 34 tickers retrieved. Core tickers available."
+    "latest_trading_date": "2026-09-08",
+    "last_updated_utc": "2026-09-09T01:19:14.177015+00:00",
+    "is_stale": false,
+    "message": "Data retrieval OK. 34 of 34 tickers retrieved. Core tickers available."
   },
   "data_freshness": {
-    "latest_trading_date": "2026-09-04",
-    "calendar_age_days": 4,
-    "is_stale": true
+    "latest_trading_date": "2026-09-08",
+    "calendar_age_days": 1,
+    "is_stale": false
   },
   "regime": "Mixed / Transition",
   "regime_name": "Transitioning Regime",
@@ -65,7 +65,7 @@
     "confidence_action": "unchanged",
     "is_stale": false,
     "age_days": 0.1,
-    "source_as_of": "2026-09-07T22:43:19+00:00",
+    "source_as_of": "2026-09-08T22:30:41+00:00",
     "sync_status": "ok",
     "summary": "Funding confirmation is partial: fringe borrowers are weaker, but broad hyperscaler credit has not fully deteriorated.",
     "signals": {
@@ -74,7 +74,7 @@
       "hyperscaler_coverage_ratio": 0.65,
       "neocloud_financing_score": 54.0,
       "neocloud_status": "STRESS",
-      "market_plumbing_score": 49.0,
+      "market_plumbing_score": 45.0,
       "market_plumbing_status": "WATCH"
     },
     "warnings": [],
